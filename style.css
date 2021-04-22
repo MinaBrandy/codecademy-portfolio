@@ -21,18 +21,60 @@ a {
     color: black;
 }
 
-#about {
+#about, 
+#skills,
+#photos,
+#contact {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
 
-p {
-    display: flex;
+.about-me {
     text-align: center;
     word-wrap: break-word;
-    width: 200px;
+    width: 12em;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 20pt;
 }
 
+li {
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 25em;
+}
+
+
+.cats {
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+}
+
+.email {
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.phone-number {
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
 
